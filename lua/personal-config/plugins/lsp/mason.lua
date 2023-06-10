@@ -19,12 +19,6 @@ mason.setup()
 -- https://github.com/williamboman/mason-lspconfig.nvim<F8>
 mason_lspconfig.setup({
     ensure_installed = {
-        "emmet_ls",
-        "tsserver",
-        "html",
-        "rust_analyzer",
-        "lua_ls",
-        "jdtls",
 
     },
     automatic_installation = true,
@@ -32,9 +26,7 @@ mason_lspconfig.setup({
 
 mason_null_ls.setup({
     ensure_installed = {
-        "prettier",
-        "stylua",
-        "eslint_d",
+
 
     },
     automatic_installation = true,
