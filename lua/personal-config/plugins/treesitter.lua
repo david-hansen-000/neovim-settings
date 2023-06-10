@@ -10,10 +10,7 @@ treesitter.setup({
 	indent = { enable = true },
 	autotag = { enable = true },
 	ensure_installed = {
-		"bash",
-		"lua",
-		"vim",
-		"gitignore",
+
 	},
 	auto_install = true,
 })
