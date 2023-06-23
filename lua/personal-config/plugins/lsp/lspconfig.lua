@@ -39,31 +39,6 @@ end
 
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-lspconfig["html"].setup({
-    capabilities = capabilities,
-    on_attach = on_attach
-})
-
-lspconfig["jdtls"].setup({
-    capabilities = capabilities,
-    on_attach = on_attach
-})
-
-lspconfig["cssls"].setup({
-    capabilities = capabilities,
-    on_attach = on_attach
-})
-
-lspconfig["tailwindcss"].setup({
-    capabilities = capabilities,
-    on_attach = on_attach
-})
-
-lspconfig["rust_analyzer"].setup({
-    capabilities = capabilities,
-    on_attach = on_attach
-})
-
 typescript.setup({
     server = {
         capabilities = capabilities,
